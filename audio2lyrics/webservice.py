@@ -4,7 +4,7 @@ import numpy as np
 import ffmpeg
 from fastapi import FastAPI, UploadFile, File
 from whisper import tokenizer
-from audio2lyrics.core import transcribe, language_detection
+from core import transcribe
 import json
 
 # Logging

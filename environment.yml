@@ -10,5 +10,11 @@ dependencies:
   - uvicorn[standard]
   - numpy
   - ffmpeg-python
+  - scipy
+  - python-dotenv
 pip:
   - openai-whisper
+  - noisereduce
+  - yt-dlp
+  - librosa
+  - soundfile

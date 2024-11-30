@@ -4,3 +4,4 @@ numpy
 ffmpeg-python
 openai-whisper
 torch
+python-multipart
