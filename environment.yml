@@ -1,0 +1,14 @@
+name: lyricsenv
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python==3.9
+  - pytorch
+  - fastapi
+  - uvicorn[standard]
+  - numpy
+  - ffmpeg-python
+pip:
+  - openai-whisper
